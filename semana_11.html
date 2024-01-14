@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Semana 11</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+    <!-- Icono -->
+    <link href="semanas/icons/once.png" rel="icon">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="fontawesome/fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet">
+    <link href="semanas/lib/slick/slick.css" rel="stylesheet">
+    <link href="semanas/lib/slick/slick-theme.css" rel="stylesheet">
+    <link href="semanas/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="semanas/css/semanas.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="img/sem_11.jpg" alt="Image">
+            </div>
+            <div class="sidebar-content">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">Menú de opciones</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#header">Número de semana<i
+                                        class="fa-solid fa-hashtag"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Temas aprendidos<i
+                                        class="fa-solid fa-lines-leaning"></i></a>
+                            </li>
+                            <li class="nav-item">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#table">Definiciones<i
+                                        class="fa-solid fa-book-open-reader"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Procedimientos<i
+                                        class="fa-solid fa-code"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">Resultados<i
+                                        class="fa-solid fa-square-poll-horizontal"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Volver<i class="fa-solid fa-left-long"></i></a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="content">
+
+            <!-- Número y fecha de semana -->
+            <div class="header" id="header">
+                <div class="content-inner">
+                    <h1>Undécima semana</h1>
+                    <h2></h2>
+                    <div class="typed-text">Desarrollada del, 18 de Diciembre, al 22 de Diciembre</div>
+                </div>
+            </div>
+            <!-- Número y fecha de semana -->
+
+            <!-- PDF de la clase -->
+            <div class="large-btn">
+                <div class="content-inner">
+
+                </div>
+            </div>
+            <!-- PDF de la clase -->
+
+            <!-- Temas aprendidos -->
+            <div class="about" id="about">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>¿Que temas aprendió?</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <img src="img/hooks.png" alt="Image">
+                        </div>
+                        <div class="col-md-6 col-lg-7">
+                            <p>
+                                Durante esta semana, se exploraron conceptos clave en React, incluyendo el uso efectivo
+                                del
+                                hook useEffect para gestionar efectos secundarios. Se aprendió a modularizar la lógica
+                                de formularios mediante custom hooks, como useForm, y se adquirió la habilidad de
+                                consumir APIs externas con Axios. La utilización de referencias (useRef) permitió
+                                acceder directamente a nodos del DOM. Se implementaron contadores y generadores de
+                                números aleatorios para interactuar con APIs, y se promovió la estructuración de
+                                componentes en archivos separados para mejorar la reutilización y el mantenimiento del
+                                código.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Temas aprendidos -->
+
+            <!-- Definiciones -->
+            <div class="table" id="table">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Definiciones</h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-solid fa-hurricane"></i>
+                                <h4>Hook useEffect:</h4>
+                                <p>Un hook de React que permite ejecutar efectos secundarios en componentes funcionales,
+                                    como realizar solicitudes HTTP, manipular el DOM o suscribirse a eventos, en
+                                    diferentes puntos del ciclo de vida del componente.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-brands fa-intercom"></i>
+                                <h4>Custom Hook</h4>
+                                <p>Una función personalizada en React que puede contener lógica de estado y efectos,
+                                    permitiendo encapsular y reutilizar comportamientos específicos en múltiples
+                                    componentes.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-solid fa-asterisk"></i>
+                                <h4>Referencia (useRef)</h4>
+                                <p>Un objeto proporcionado por React que permite mantener una referencia mutable a un
+                                    elemento del DOM. Se utiliza para acceder y modificar directamente propiedades o
+                                    estilos del elemento sin afectar el estado de React.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-brands fa-gitlab"></i>
+                                <h4>Axios</h4>
+                                <p>Una biblioteca JavaScript utilizada para realizar solicitudes HTTP en aplicaciones
+                                    basadas en el navegador y en Node.js. Es comúnmente empleada para consumir APIs
+                                    externas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Definiciones -->
+
+            <!-- Procedimientos -->
+            <div class="experience" id="experience">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Procedimientos</h2>
+                    </div>
+                    <ol>
+                        <li> Implementación de efectos con useEffect para distintos escenarios, incluyendo casos de renderización, cambios en variables específicas y ejecución única al cargar el componente.</li>
+                        <li> Creación de un custom hook llamado useForm para gestionar formularios de manera más eficiente y reutilizable.</li>
+                        <li>Consumo de la API de Breaking Bad para mostrar cotizaciones al recargar el componente y actualización de la interfaz mediante un botón de recarga.</li>
+                        <li>Creación de un proyecto que consume la API de Pokémon, mostrando información de un Pokémon específico según un número aleatorio o seleccionado por el usuario.</li>
+                        <li>Utilización de Axios para realizar solicitudes HTTP a la API de Pokémon y obtener datos dinámicos.</li>
+                        <li>Manipulación del DOM mediante el uso de referencias (useRef) para cambiar estilos o interactuar con elementos específicos.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <!-- Procedimientos -->
+
+            <!-- Resultados - 1 -->
+            <div class="service" id="service">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Resultados</h2>
+                    </div>
+                    <ol>
+                        <li>Se logró crear un proyecto que consume la API de Breaking Bad y otra que interactúa con la API de Pokémon, demostrando la capacidad para consumir datos externos en aplicaciones React.</li>
+                        <li>Se implementaron contadores y generadores de números aleatorios para enriquecer la interactividad de las aplicaciones y proporcionar funcionalidades más dinámicas.</li>
+                        <li>Se mejoró la estructura del código al dividir componentes en archivos separados y aplicar buenas prácticas de desarrollo.</li>
+                        <li>Se reforzaron conceptos clave de React, como el uso de useState, useEffect, custom hooks y la manipulación eficiente del DOM.</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- Resultados - 1 -->
+        </div>
+    </div>
+
+    <!-- Volver al inicio -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Librerias -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

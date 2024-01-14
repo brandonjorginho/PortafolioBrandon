@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Semana 12</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+    <!-- Icono -->
+    <link href="semanas/icons/doce.png" rel="icon">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="fontawesome/fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet">
+    <link href="semanas/lib/slick/slick.css" rel="stylesheet">
+    <link href="semanas/lib/slick/slick-theme.css" rel="stylesheet">
+    <link href="semanas/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="semanas/css/semanas.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="img/sem_12.jpg" alt="Image">
+            </div>
+            <div class="sidebar-content">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">Menú de opciones</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#header">Número de semana<i
+                                        class="fa-solid fa-hashtag"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Temas aprendidos<i
+                                        class="fa-solid fa-lines-leaning"></i></a>
+                            </li>
+                            <li class="nav-item">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#table">Definiciones<i
+                                        class="fa-solid fa-book-open-reader"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Procedimientos<i
+                                        class="fa-solid fa-code"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">Resultados<i
+                                        class="fa-solid fa-square-poll-horizontal"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Volver<i class="fa-solid fa-left-long"></i></a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="content">
+
+            <!-- Número y fecha de semana -->
+            <div class="header" id="header">
+                <div class="content-inner">
+                    <h1>Duodécima semana</h1>
+                    <h2></h2>
+                    <div class="typed-text">Desarrollada del, 25 de Diciembre, al 29 de Diciembre</div>
+                </div>
+            </div>
+            <!-- Número y fecha de semana -->
+
+            <!-- PDF de la clase -->
+            <div class="large-btn">
+                <div class="content-inner">
+
+                </div>
+            </div>
+            <!-- PDF de la clase -->
+
+            <!-- Temas aprendidos -->
+            <div class="about" id="about">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>¿Que temas aprendió?</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <img src="img/usereducer.jpeg" alt="Image">
+                        </div>
+                        <div class="col-md-6 col-lg-7">
+                            <p>
+                                Durante el desarrollo de esta semana, se aprendió a utilizar useReducer y
+                                useContext como herramientas clave. Se realizaron los siguientes procedimientos: se
+                                implementó useReducer para manejar el estado de la aplicación, creando un reducer para
+                                gestionar acciones como agregar usuarios; se modularizó la lógica de manejo de
+                                formularios con el custom hook useForm; se estructuraron los componentes en archivos
+                                separados para mejorar la organización y reutilización del código; se introdujo el uso
+                                de referencias (useRef) para acceder directamente a nodos del DOM; se consumieron APIs
+                                externas con la biblioteca Axios; se emplearon alertas visuales con la librería
+                                SweetAlert2. Además, se utilizó useContext para pasar valores de estado de manera
+                                eficiente entre componentes, separando así la lógica de presentación y facilitando la
+                                estructuración del proyecto. En resumen, se logró un proyecto bien organizado, donde se
+                                aplicaron conceptos fundamentales de React para desarrollar un CRUD funcional y modular.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Temas aprendidos -->
+
+            <!-- Definiciones -->
+            <div class="table" id="table">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Definiciones</h2>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-solid fa-diagram-predecessor"></i>
+                                <h4>useReducer</h4>
+                                <p>Hook de React que permite manejar el estado de la aplicación de una manera más
+                                    compleja que useState, útil para casos donde el estado depende del anterior o se
+                                    deben realizar acciones más complejas.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-solid fa-puzzle-piece fa-5x"></i>
+                                <h4>useContext</h4>
+                                <p>Otro Hook de React que proporciona una forma de pasar datos a través del árbol de
+                                    componentes sin necesidad de pasar props manualmente en cada nivel.
+                                    Reducer: Una función que especifica cómo el estado de una aplicación cambia en
+                                    respuesta a acciones enviadas a través de dispatch en useReducer.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-brands fa-intercom"></i>
+                                <h4>Custom Hook</h4>
+                                <p>Funciones personalizadas en React que encapsulan lógica específica y pueden ser
+                                    reutilizadas en varios componentes.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="service-item">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                <h4>useRef</h4>
+                                <p>Hook que proporciona una forma de acceder a nodos del DOM directamente en lugar de
+                                    depender del estado de React, útil para realizar operaciones directas sobre
+                                    elementos HTML.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Definiciones -->
+
+            <!-- Procedimientos -->
+            <div class="experience" id="experience">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Procedimientos</h2>
+                    </div>
+                    <ol>
+                        <li> Implementación de useReducer:
+
+                            Se integró useReducer para gestionar el estado de la aplicación, permitiendo transiciones de
+                            estado más complejas y manejando acciones específicas.</li>
+                        <li> Creación de useForm:
+
+                            Se desarrolló el custom hook useForm para modularizar la lógica de manejo de formularios,
+                            facilitando la captura y actualización de valores de formulario.</li>
+                        <li>Estructuración de componentes:
+
+                            Se organizó la aplicación con componentes en archivos separados para mejorar la
+                            reutilización y mantenimiento del código, siguiendo buenas prácticas de estructuración.</li>
+                        <li>Consumo de APIs con Axios:
+
+                            Se utilizó la biblioteca Axios para realizar peticiones HTTP, permitiendo la conexión y
+                            obtención de datos desde APIs externas.</li>
+                        <li>
+
+                            Uso de referencias (useRef):
+
+                            Se emplearon referencias para acceder directamente a nodos del DOM, evitando la necesidad de
+                            depender del estado de React para obtener y manipular elementos específicos.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <!-- Procedimientos -->
+
+            <!-- Resultados - 1 -->
+            <div class="service" id="service">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Resultados</h2>
+                    </div>
+                    <ol>
+                        <li>Manejo eficiente del estado: A través de la implementación de useReducer en lugar de
+                            useState, se logró un manejo más estructurado y escalable del estado en la aplicación,
+                            permitiendo una transición suave entre asignar estados y despachar acciones.</li>
+                        <li>Modularización de la lógica de formularios: La creación y aplicación del custom hook useForm
+                            facilitó la modularización y reutilización de la lógica asociada a los formularios. Esto
+                            simplificó el manejo de cambios en los inputs y el reinicio de los valores del formulario.
+                        </li>
+                        <li>Consumo eficaz de APIs externas: Se utilizó la biblioteca Axios para realizar solicitudes a
+                            APIs externas, proporcionando un manejo robusto de las operaciones asíncronas y mejorando la
+                            integración de datos externos en la aplicación React.</li>
+                        <li>
+                            Acceso directo a nodos del DOM: La incorporación de useRef permitió acceder directamente a
+                            los nodos del DOM, eliminando la necesidad de depender del estado de React para operaciones
+                            específicas. Esto mejoró la eficiencia en la interacción con elementos HTML sin desencadenar
+                            re-renderizaciones innecesarias.
+                        </li>
+                        <li>
+                            Estructuración clara de componentes: La organización de los componentes en archivos
+                            separados facilitó la reutilización y el mantenimiento del código. La separación de
+                            responsabilidades en componentes específicos mejoró la legibilidad y escalabilidad del
+                            proyecto.
+                        </li>
+                        <li>
+                            Implementación de contextos y reducers: Se aplicó el uso de contextos y reducers para
+                            compartir y manejar el estado de manera global en la aplicación, facilitando la comunicación
+                            entre componentes y permitiendo una gestión más eficiente de las actualizaciones de estado.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <!-- Resultados - 1 -->
+        </div>
+    </div>
+
+    <!-- Volver al inicio -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Librerias -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
